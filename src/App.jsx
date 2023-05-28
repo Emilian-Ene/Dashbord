@@ -10,10 +10,6 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <Header />
-      <Navbar />
-      <Navbar />
-      <Navbar />
       <Navbar />
       {/* <Reports /> */}
       <Cards />
