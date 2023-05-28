@@ -12,6 +12,7 @@ function App() {
       <Header />
       <Header />
       <Navbar />
+      <Navbar />
       {/* <Reports /> */}
       <Cards />
       {/* <Customers /> */}
