@@ -1,0 +1,35 @@
+.header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.material-icons-outlined {
+  color: red;
+  font-size: 30px;
+}
+.menu-icon {
+  display: none;
+}
+.header-left input {
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 6px;
+  color: rgb(0, 0, 0);
+  width: 240px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* .logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+} */

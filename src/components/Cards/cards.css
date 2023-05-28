@@ -1,0 +1,52 @@
+.cards {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card {
+  transition: all 0.2s linear;
+  padding: 20px;
+  width: 220px;
+  border-radius: 10px;
+  box-shadow: 0 6px 7px -3px rgba(0, 0, 0, 0.35);
+}
+.card-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-inner i {
+  color: #9e9ea4;
+  font-size: 30px;
+}
+h3 {
+  color: #9e9ea4;
+}
+p {
+  color: #9e9ea4;
+  font-size: 18px;
+  font-weight: 600;
+}
+#root > div > div.cards > div:nth-child(1) {
+  background-color: blue;
+}
+
+#root > div > div.cards > div:nth-child(2) {
+  background-color: #b95101;
+}
+
+#root > div > div.cards > div:nth-child(3) {
+  background-color: #2e7d32;
+}
+
+#root > div > div.cards > div:nth-child(4) {
+  background-color: red;
+}
+
+.card:hover {
+  transition: all ease 0.4s;
+  transform: scale(1.1);
+}

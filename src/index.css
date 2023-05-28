@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #263043;
+}
+
+body {
+  max-width: 1250px;
+  margin: auto;
+}
+@media screen and (max-width: 700px) {
+  .navbar .link {
+    display: none;
+  }
+  .header .header-left {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+}
